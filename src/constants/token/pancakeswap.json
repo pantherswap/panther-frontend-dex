@@ -837,6 +837,20 @@
       "address": "0x101d82428437127bf1608f699cd651e6abf9766e",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "My Neigbor Alice",
+      "symbol": "ALICE",
+      "address": "0xac51066d7bec65dc4589368da368b212745d63e8",
+      "chainId": 56,
+      "decimals": 6
+    },
+    {
+      "name": "Pancake Bunny",
+      "symbol": "BUNNY",
+      "address": "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
