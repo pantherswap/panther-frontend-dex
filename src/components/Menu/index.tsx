@@ -5,7 +5,7 @@ import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 import useGetPriceData from 'hooks/useGetPriceData'
-import useGetLocalProfile from 'hooks/useGetLocalProfile'
+// import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import { injected, bsc, walletconnect } from 'connectors'
 import links from './config'
 
@@ -15,7 +15,7 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
   const cakePriceUsd = priceData ? Number(priceData.prices.Cake) : undefined
-  const profile = useGetLocalProfile()
+  // const profile = useGetLocalProfile()
 
   return (
     <UikitMenu
@@ -39,7 +39,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      profile={profile}
+      /* profile={profile} */
       {...props}
     />
   )
