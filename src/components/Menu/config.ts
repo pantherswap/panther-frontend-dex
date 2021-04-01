@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://pantherswap.com/',
   },
   {
     label: 'Trade',
@@ -24,42 +24,47 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+    href: 'https://pantherswap.com/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/syrup',
+    href: 'https://pantherswap.com/pools',
   },
   {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
+    label: 'Referrals',
+    icon: 'ReferralIcon',
+    href: 'https://pantherswap.com/referrals',
   },
-  {
-    label: 'NFT',
-    icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    calloutClass: 'rainbow',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
-      },
-      {
-        label: 'Task Center',
-        href: 'https://pancakeswap.finance/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
-      },
-    ],
-  },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: 'https://pantherswap.com/lottery',
+  // },
+  // {
+  //   label: 'NFT',
+  //   icon: 'NftIcon',
+  //   href: 'https://pancakeswap.finance/nft',
+  // },
+  // {
+  //   label: 'Teams & Profile',
+  //   icon: 'GroupsIcon',
+  //   calloutClass: 'rainbow',
+  //   items: [
+  //     {
+  //       label: 'Leaderboard',
+  //       href: 'https://pancakeswap.finance/teams',
+  //     },
+  //     {
+  //       label: 'Task Center',
+  //       href: 'https://pancakeswap.finance/profile/tasks',
+  //     },
+  //     {
+  //       label: 'Your Profile',
+  //       href: 'https://pancakeswap.finance/profile',
+  //     },
+  //   ],
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
@@ -82,30 +87,30 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'IFO',
-    icon: 'IfoIcon',
-    href: 'https://pancakeswap.finance/ifo',
-  },
+  // {
+  //   label: 'IFO',
+  //   icon: 'IfoIcon',
+  //   href: 'https://pancakeswap.finance/ifo',
+  // },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
-      },
+      // {
+      //   label: 'Voting',
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/pantherswap',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.pantherswap.com',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://pantherswap.medium.com',
       },
     ],
   },
