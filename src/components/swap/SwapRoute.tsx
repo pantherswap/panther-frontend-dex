@@ -27,7 +27,7 @@ export default memo(function SwapRoute({ trade }: { trade: Trade }) {
           <Fragment key={i}>
             <Flex my="0.5rem" alignItems="center" style={{ flexShrink: 0 }}>
               <CurrencyLogo currency={token} size="1.5rem" />
-              <Black fontSize={14} color={theme.colors.text} ml="0.5rem">
+              <Black fontSize="14px" color={theme.colors.text} ml="0.5rem">
                 {token.symbol}
               </Black>
             </Flex>

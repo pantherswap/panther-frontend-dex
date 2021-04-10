@@ -83,12 +83,13 @@ export default function PoolFinder() {
         <CardBody>
           <AutoColumn gap="md">
             <Button
+              variant="secondary"
               onClick={() => {
                 setShowSearch(true)
                 setActiveField(Fields.TOKEN0)
               }}
               startIcon={currency0 ? <CurrencyLogo currency={currency0} style={{ marginRight: '.5rem' }} /> : null}
-              endIcon={<ChevronDownIcon width="24px" color="white" />}
+              endIcon={<ChevronDownIcon width="24px" color="textSubtle" />}
               fullWidth
             >
               {currency0 ? currency0.symbol : <TranslatedText translationId={82}>Select a Token</TranslatedText>}
@@ -99,12 +100,13 @@ export default function PoolFinder() {
             </ColumnCenter>
 
             <Button
+              variant="secondary"
               onClick={() => {
                 setShowSearch(true)
                 setActiveField(Fields.TOKEN1)
               }}
               startIcon={currency1 ? <CurrencyLogo currency={currency1} style={{ marginRight: '.5rem' }} /> : null}
-              endIcon={<ChevronDownIcon width="24px" color="white" />}
+              endIcon={<ChevronDownIcon width="24px" color="textSubtle" />}
               fullWidth
             >
               {currency1 ? currency1.symbol : <TranslatedText translationId={82}>Select a Token</TranslatedText>}
