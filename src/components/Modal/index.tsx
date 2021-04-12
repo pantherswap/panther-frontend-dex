@@ -10,7 +10,7 @@ const AnimatedDialogOverlay = animated(DialogOverlay)
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const StyledDialogOverlay = styled(AnimatedDialogOverlay)`
   &[data-reach-dialog-overlay] {
-    z-index: 2;
+    z-index: 999;
     background-color: transparent;
     overflow: hidden;
 
@@ -18,7 +18,7 @@ const StyledDialogOverlay = styled(AnimatedDialogOverlay)`
     align-items: center;
     justify-content: center;
 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 114, 13, 0.2);
   }
 `
 
@@ -32,9 +32,12 @@ const StyledDialogContent = styled(({ minHeight, maxHeight, mobile, isOpen, ...r
 })`
   &[data-reach-dialog-content] {
     margin: 0 0 2rem 0;
-    border: 1px solid ${({ theme }) => theme.colors.invertedContrast};
-    background-color: ${({ theme }) => theme.colors.invertedContrast};
-    box-shadow: 0 4px 8px 0 ${transparentize(0.95, '#191326')};
+    // border: 1px solid ${({ theme }) => theme.colors.invertedContrast};
+    // background-color: ${({ theme }) => theme.colors.invertedContrast};
+    // box-shadow: 0 4px 8px 0 ${transparentize(0.95, '#191326')};
+    background: ${({ theme }) => theme.modal.background};
+    box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
+    border: 1px solid ${({ theme }) => theme.colors.borderColor};
     padding: 0px;
     width: 80%;
     overflow: hidden;
@@ -50,7 +53,7 @@ const StyledDialogContent = styled(({ minHeight, maxHeight, mobile, isOpen, ...r
     ${({ minHeight }) =>
       minHeight &&
       css`
-        min-height: ${minHeight}vh;
+        min-height: calc(${minHeight}vh - 64px);
       `}
     display: flex;
     border-radius: 16px;
