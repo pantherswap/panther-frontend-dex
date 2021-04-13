@@ -56,7 +56,7 @@ const StyledDialogContent = styled(({ minHeight, maxHeight, mobile, isOpen, ...r
         min-height: calc(${minHeight}vh - 64px);
       `}
     display: flex;
-    border-radius: 16px;
+    border-radius: 20px;
 
     ${({ theme }) => theme.mediaQueries.lg} {
       width: 65vw;

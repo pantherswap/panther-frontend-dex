@@ -66,7 +66,7 @@ export default function Pool() {
           </Button>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
-          <CardBody style={{ minHeight: '362px' }}>
+          <CardBody>
             <AutoColumn gap="12px" style={{ width: '100%' }}>
               <RowBetween padding="0 8px">
                 <Text color={theme.colors.text}>
