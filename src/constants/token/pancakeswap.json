@@ -26,14 +26,6 @@
       "decimals": 18
     },
     {
-      "name": "LP3 Token",
-      "symbol": "LP3",
-      "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
-      "chainId": 97,
-      "decimals": 18,
-      "logoURI": "/images/coins/ETH.png"
-    },
-    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3",
@@ -179,20 +171,6 @@
       "decimals": 18
     },
     {
-      "name": "Prometeus",
-      "symbol": "PROM",
-      "address": "0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
-      "name": "CanYaCoin",
-      "symbol": "CAN",
-      "address": "0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
       "name": "Polkadot Token",
       "symbol": "DOT",
       "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
@@ -203,13 +181,6 @@
       "name": "PancakeSwap Token",
       "symbol": "CAKE",
       "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
-      "name": "Streamity",
-      "symbol": "STM",
-      "address": "0x90df11a8cce420675e73922419e3f4f3fe13cccb",
       "chainId": 56,
       "decimals": 18
     },
@@ -235,20 +206,6 @@
       "decimals": 18
     },
     {
-      "name": "Dice.finance Token",
-      "symbol": "DICE",
-      "address": "0x748ad98b14c814b28812eb42ad219c8672909879",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
-      "name": "JNTR/b",
-      "symbol": "JNTR/b",
-      "address": "0x3c037c4c2296f280bb318d725d0b454b76c199b9",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
       "name": "SPARTAN PROTOCOL TOKEN",
       "symbol": "SPART",
       "address": "0xe4ae305ebe1abe663f261bc00534067c80ad677c",
@@ -266,13 +223,6 @@
       "name": "Venus",
       "symbol": "XVS",
       "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
-      "name": "Beer Garden",
-      "symbol": "Beer",
-      "address": "0xbb8db5e17bbe9c90da8e3445e335b82d7cc53575",
       "chainId": 56,
       "decimals": 18
     },
