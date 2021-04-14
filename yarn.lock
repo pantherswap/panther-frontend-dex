@@ -1984,7 +1984,7 @@
 
 "@pancakeswap-libs/uikit@pantherswap/panther-uikit":
   version "0.10.6"
-  resolved "https://codeload.github.com/pantherswap/panther-uikit/tar.gz/f48049a002c8d8ef2872c6b9ddbb0c024996e785"
+  resolved "https://codeload.github.com/pantherswap/panther-uikit/tar.gz/074aedda9e9594b2864793b1d196f91e7559233d"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
