@@ -1982,10 +1982,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@^0.10.5":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.10.7.tgz#e0cccfbcb3035f37e91e72552ac9b83088ef033b"
-  integrity sha512-1AiTNRLHJQ0HLPmI1i8yKTd3aaz0MIDfwiiRy5FJrt/ZqlBWiha16ndOrVBKRSuOUCnr+s75OiDP4szqdk6bPA==
+"@pancakeswap-libs/uikit@pantherswap/panther-uikit":
+  version "0.10.6"
+  resolved "https://codeload.github.com/pantherswap/panther-uikit/tar.gz/f48049a002c8d8ef2872c6b9ddbb0c024996e785"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
