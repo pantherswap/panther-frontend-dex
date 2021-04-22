@@ -42,6 +42,14 @@
       "logoURI": "/images/coins/bake.png"
     },
     {
+      "name": "PantherSwap Token",
+      "symbol": "PANTHER",
+      "address": "0x829c86e75597dfeeb05b0bd4aa3a7bf225546393",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/panther.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
