@@ -32,15 +32,64 @@ const config: MenuEntry[] = [
     href: 'https://pantherswap.com/pools',
   },
   {
-    label: 'Referrals',
-    icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    label: 'Jungles',
+    icon: 'JungleIcon',
+    href: 'https://pantherswap.com/jungles',
   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
   //   href: 'https://pantherswap.com/lottery',
   // },
+  {
+    label: 'Referrals',
+    icon: 'ReferralIcon',
+    href: 'https://pantherswap.com/referrals',
+  },
+  {
+    label: 'Automatic LP',
+    icon: 'PriceGuardIcon',
+    href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+  },
+  {
+    label: 'Harvest Lockup',
+    icon: 'PriceGuardIcon',
+    href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+  },
+  {
+    label: 'Anti-Whale',
+    icon: 'PriceGuardIcon',
+    href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+  },
+  {
+    label: 'Audits',
+    icon: 'ShieldIcon',
+    href: 'https://docs.pantherswap.com/security/audits',
+  },
+  {
+    label: 'Price Charts',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'DexGuru',
+        href: 'https://dex.guru/token/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393-bsc',
+      },
+      {
+        label: 'PooCoin',
+        href: 'https://poocoin.app/tokens/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393',
+      },
+    ],
+  },
+  {
+    label: 'Listings',
+    icon: 'ListingIcon',
+    items: [
+      {
+        label: 'BscScan',
+        href: 'https://bscscan.com/token/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393',
+      },
+    ],
+  },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
@@ -65,28 +114,28 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://pancakeswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
-      },
-    ],
-  },
+  // {
+  //   label: 'Info',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'Overview',
+  //       href: 'https://pancakeswap.info',
+  //     },
+  //     {
+  //       label: 'Tokens',
+  //       href: 'https://pancakeswap.info/tokens',
+  //     },
+  //     {
+  //       label: 'Pairs',
+  //       href: 'https://pancakeswap.info/pairs',
+  //     },
+  //     {
+  //       label: 'Accounts',
+  //       href: 'https://pancakeswap.info/accounts',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
@@ -107,6 +156,10 @@ const config: MenuEntry[] = [
       {
         label: 'Docs',
         href: 'https://docs.pantherswap.com',
+      },
+      {
+        label: 'Roadmap',
+        href: 'https://docs.pantherswap.com/roadmap',
       },
       {
         label: 'Blog',
