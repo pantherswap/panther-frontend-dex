@@ -39,7 +39,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink="https://bscscan.com/token/"
+      cakePriceLink="https://bscscan.com/token/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393"
       /* profile={profile} */
       {...props}
     />
