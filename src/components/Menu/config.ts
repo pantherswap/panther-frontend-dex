@@ -72,11 +72,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'DexGuru',
-        href: 'https://dex.guru/token/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393-bsc',
+        href: 'https://dex.guru/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7-bsc',
       },
       {
         label: 'PooCoin',
-        href: 'https://poocoin.app/tokens/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393',
+        href: 'https://poocoin.app/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
       },
     ],
   },
@@ -86,7 +86,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'BscScan',
-        href: 'https://bscscan.com/token/0x829c86e75597dfeeb05b0bd4aa3a7bf225546393',
+        href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
       },
     ],
   },
