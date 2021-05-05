@@ -19,6 +19,10 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: '/pool',
       },
+      {
+        label: 'PancakeSwap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+      },
     ],
   },
   {
@@ -36,35 +40,42 @@ const config: MenuEntry[] = [
     icon: 'JungleIcon',
     href: 'https://pantherswap.com/jungles',
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://pantherswap.com/lottery',
-  // },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: 'https://pantherswap.com/lottery',
+  },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
     href: 'https://pantherswap.com/referrals',
   },
   {
-    label: 'Automatic LP',
-    icon: 'PriceGuardIcon',
-    href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
-  },
-  {
-    label: 'Harvest Lockup',
-    icon: 'PriceGuardIcon',
-    href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
-  },
-  {
-    label: 'Anti-Whale',
-    icon: 'PriceGuardIcon',
-    href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
-  },
-  {
     label: 'Audits',
     icon: 'ShieldIcon',
     href: 'https://docs.pantherswap.com/security/audits',
+  },
+  {
+    label: 'Features',
+    icon: 'PriceGuardIcon',
+    items: [
+      {
+        label: 'Automatic LP',
+        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+      },
+      {
+        label: 'Automatic Burning',
+        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+      },
+      {
+        label: 'Harvest Lockup',
+        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+      },
+      {
+        label: 'Anti-Whale',
+        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+      },
+    ],
   },
   {
     label: 'Price Charts',
@@ -78,6 +89,14 @@ const config: MenuEntry[] = [
         label: 'PooCoin',
         href: 'https://poocoin.app/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
       },
+      {
+        label: 'BoggedFinance',
+        href: 'https://charts.bogged.finance/?token=0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7',
+      },
+      {
+        label: 'DexTools',
+        href: 'https://www.dextools.io/app/pancakeswap/pair-explorer/0xecc11a78490866e0073ebc4a4dcb6f75673c8685',
+      },
     ],
   },
   {
@@ -87,6 +106,22 @@ const config: MenuEntry[] = [
       {
         label: 'BscScan',
         href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+      },
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+      },
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/pantherswap',
+      },
+      {
+        label: 'LiveCoinWatch',
+        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+      },
+      {
+        label: 'Vfat',
+        href: 'https://vfat.tools/bsc/panther',
       },
     ],
   },
@@ -164,6 +199,10 @@ const config: MenuEntry[] = [
       {
         label: 'Blog',
         href: 'https://pantherswap.medium.com',
+      },
+      {
+        label: 'Voting',
+        href: 'https://voting.pantherswap.com/',
       },
     ],
   },
