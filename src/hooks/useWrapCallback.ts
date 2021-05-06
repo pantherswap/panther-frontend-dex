@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, ETHER, WETH } from '@pancakeswap-libs/sdk'
+import { Currency, currencyEquals, ETHER, WETH } from '@pantherswap-libs/sdk'
 import { useMemo } from 'react'
 import { tryParseAmount } from '../state/swap/hooks'
 import { useTransactionAdder } from '../state/transactions/hooks'
@@ -68,8 +68,8 @@ export default function useWrapCallback(
             : undefined,
         inputError: sufficientBalance ? undefined : 'Insufficient WBNB balance'
       }
-    } 
+    }
       return NOT_APPLICABLE
-    
+
   }, [wethContract, chainId, inputCurrency, outputCurrency, inputAmount, balance, addTransaction])
 }
