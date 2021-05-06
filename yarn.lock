@@ -3069,6 +3069,28 @@
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
+"@pantherswap-libs/panther-swap-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
+  integrity sha512-55EzWpF2mCS9HEMzHsZ1QIxJ1ehshiF+SqB394Y8Nchbo+BFfPeZMka4ngYvb6uZIqwgPhEimH3XK4d+xkIruQ==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@pantherswap-libs/sdk@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pantherswap-libs/sdk/-/sdk-1.0.0.tgz#6cafaee2bd7afa4d3b9dcc1993dca3ccd1124d16"
+  integrity sha512-qhxvneNbLeheKYHpAjg5DvcUr6OWZsjMaURA6ZstJD7HnRQMD+tB5XQFRnuX7jdaXl2yIRDCLu7qKSlkr36XXA==
+  dependencies:
+    "@pantherswap-libs/panther-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pedrouid/iso-crypto/-/iso-crypto-1.0.0.tgz#cf06b40ef3da3d7ca7363bd7a521ed59fa2fd13d"

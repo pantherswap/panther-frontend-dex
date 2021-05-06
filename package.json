@@ -8,6 +8,7 @@
     "@ethersproject/experimental": "^5.0.1",
     "@pancakeswap-libs/sdk": "pantherswap/pantherswap-sdk",
     "@pancakeswap-libs/uikit": "pantherswap/panther-uikit",
+    "@pantherswap-libs/sdk": "^1.0.0",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
