@@ -3038,27 +3038,6 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/pancake-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
-  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
-"@pancakeswap-libs/sdk@pantherswap/pantherswap-sdk":
-  version "1.0.1"
-  resolved "https://codeload.github.com/pantherswap/pantherswap-sdk/tar.gz/638f2d1e5ea7acb48339265641e2b8031d63e925"
-  dependencies:
-    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@pancakeswap-libs/uikit@pantherswap/panther-uikit":
   version "0.10.6"
   resolved "https://codeload.github.com/pantherswap/panther-uikit/tar.gz/abf56bbf4c3ba6ff23fdb3032dbe86695a142b7d"

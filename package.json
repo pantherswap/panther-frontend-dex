@@ -6,7 +6,6 @@
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@pancakeswap-libs/sdk": "pantherswap/pantherswap-sdk",
     "@pancakeswap-libs/uikit": "pantherswap/panther-uikit",
     "@pantherswap-libs/sdk": "^1.0.0",
     "@popperjs/core": "^2.4.4",
