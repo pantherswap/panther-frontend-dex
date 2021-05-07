@@ -79,7 +79,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Price Charts',
-    icon: 'InfoIcon',
+    icon: 'ChartIcon',
     items: [
       {
         label: 'DexGuru',
@@ -149,28 +149,28 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  // {
-  //   label: 'Info',
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: 'Overview',
-  //       href: 'https://pancakeswap.info',
-  //     },
-  //     {
-  //       label: 'Tokens',
-  //       href: 'https://pancakeswap.info/tokens',
-  //     },
-  //     {
-  //       label: 'Pairs',
-  //       href: 'https://pancakeswap.info/pairs',
-  //     },
-  //     {
-  //       label: 'Accounts',
-  //       href: 'https://pancakeswap.info/accounts',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Info',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'Overview',
+        href: 'https://pantherswap.info',
+      },
+      {
+        label: 'Tokens',
+        href: 'https://pantherswap.info/tokens',
+      },
+      {
+        label: 'Pairs',
+        href: 'https://pantherswap.info/pairs',
+      },
+      {
+        label: 'Accounts',
+        href: 'https://pantherswap.info/accounts',
+      },
+    ],
+  },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
