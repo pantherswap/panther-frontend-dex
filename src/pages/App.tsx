@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import { Credentials, StringTranslations } from '@crowdin/crowdin-api-client'
+import VersionBar from '../components/VersionBar'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
 import { RedirectDuplicateTokenIds, RedirectOldAddLiquidityPathStructure } from './AddLiquidity/redirects'
@@ -143,6 +144,7 @@ export default function App() {
                   <Marginer />
                 </BodyWrapper>
               </Menu>
+              <VersionBar />
             </TranslationsContext.Provider>
           </LanguageContext.Provider>
         </AppWrapper>
