@@ -6,7 +6,7 @@ export const EN = { code: 'en', language: 'English' }
 // export const NL = { code: 'nl', language: 'Nederlands' }
 // export const FIL = { code: 'fil', language: 'Filipino' }
 // export const FI = { code: 'fi', language: 'Suomalainen' }
-// export const FR = { code: 'fr', language: 'Français' }
+export const FR = { code: 'fr', language: 'Français' }
 // export const DE = { code: 'de', language: 'Deutsch' }
 // export const EL = { code: 'el', language: 'Ελληνικά' }
 // export const HI = { code: 'hi', language: 'हिंदी' }
@@ -28,7 +28,7 @@ export const EN = { code: 'en', language: 'English' }
 // export const VI = { code: 'vi', language: 'Tiếng Việt' }
 
 export const allLanguages = [
-  EN
+  EN,
   // AR,
   // BN,
   // ZHCN,
@@ -36,7 +36,7 @@ export const allLanguages = [
   // NL,
   // FIL,
   // FI,
-  // FR,
+  FR,
   // DE,
   // EL,
   // HI,
