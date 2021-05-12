@@ -10,7 +10,7 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ## Adding Tokens
 
-1. Fork the [PancakeSwap Interface](https://github.com/pancakeswap/pancake-swap-interface/) repository on GitHub
+1. Fork the [PantherSwap Dex Frontend](https://github.com/pantherswap/panther-frontend-dex/) repository on GitHub
 2. Upload your **logo** in a 96\*96px transparent .png format to the `/public/images/coins` directory. Please name the logo as your symbol in uppercase.
 
 3. Add your **token information** using the example format provided below to `pantherswap.json` in the `/src/constants/token/` directory.
@@ -27,16 +27,16 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ```json
 {
-"name": "Syrup Token",
-"symbol": "SYRUP",
-"address": "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
+"name": "PantherSwap Token",
+"symbol": "PANTHER",
+"address": "0x1f546ad641b56b86fd9dceac473d1c7a357276b7",
 "chainId": 56,
 "decimals": 18,
-"logoURI": "/images/coins/SYRUP.png"
+"logoURI": "/images/coins/PANTHER.png"
 },
 ```
 
-If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/pancakeswap/pancake-swap-interface/issues/new) requesting to be added.
+If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/pantherswap/panther-frontend-dex/issues/new) requesting to be added.
 
 ## Reviews
 
