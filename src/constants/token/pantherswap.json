@@ -697,6 +697,13 @@
       "address": "0x67ee3cb086f8a16f34bee3ca72fad36f7db929e2",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "DogeCoin",
+      "symbol": "DOGE",
+      "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
