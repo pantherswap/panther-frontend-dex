@@ -23,10 +23,6 @@ const config: MenuEntry[] = [
         label: 'LP Migration',
         href: 'https://docs.pantherswap.com/amm-launch',
       },
-      {
-        label: 'PancakeSwap',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
-      },
     ],
   },
   {
