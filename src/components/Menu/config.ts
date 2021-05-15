@@ -108,12 +108,16 @@ const config: MenuEntry[] = [
         href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
       },
       {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
-      },
-      {
         label: 'CoinGecko',
         href: 'https://www.coingecko.com/en/coins/pantherswap',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/pantherswap/',
+      },
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
       },
       {
         label: 'LiveCoinWatch',
@@ -172,18 +176,14 @@ const config: MenuEntry[] = [
     ],
   },
   // {
-  //   label: 'IFO',
-  //   icon: 'IfoIcon',
-  //   href: 'https://pancakeswap.finance/ifo',
+  //   label: 'IPO',
+  //   icon: 'IpoIcon',
+  //   href: 'https://pantherswap.com/ipo',
   // },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      // {
-      //   label: 'Voting',
-      //   href: 'https://voting.pancakeswap.finance',
-      // },
       {
         label: 'Github',
         href: 'https://github.com/pantherswap',
