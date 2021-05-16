@@ -46,6 +46,11 @@ const config: MenuEntry[] = [
     href: 'https://pantherswap.com/lottery',
   },
   {
+    label: 'IPO',
+    icon: 'IfoIcon',
+    href: '/ipo',
+  },
+  {
     label: 'Referrals',
     icon: 'ReferralIcon',
     href: 'https://pantherswap.com/referrals',
