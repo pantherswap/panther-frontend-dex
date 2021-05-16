@@ -48,7 +48,7 @@ const config: MenuEntry[] = [
   {
     label: 'IPO',
     icon: 'IfoIcon',
-    href: '/ipo',
+    href: 'https://pantherswap.com/ipo',
   },
   {
     label: 'Referrals',
