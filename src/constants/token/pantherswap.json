@@ -704,6 +704,14 @@
       "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
       "chainId": 56,
       "decimals": 8
+    },
+    {
+      "name": "Shark Token",
+      "symbol": "SHARK",
+      "address": "0xf7321385a461c4490d5526d83e63c366b149cb15",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/shark.png"
     }
   ]
 }
