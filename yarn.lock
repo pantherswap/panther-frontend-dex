@@ -3045,16 +3045,6 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@pantherswap/panther-uikit":
-  version "0.10.6"
-  resolved "https://codeload.github.com/pantherswap/panther-uikit/tar.gz/7b171bb90f32cc0bf96714a8ea93381161544db8"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 "@pantherswap-libs/panther-swap-core@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
@@ -3076,6 +3066,17 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
+
+"@pantherswap-libs/uikit@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
+  integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
 
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
@@ -4304,10 +4305,15 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash@*", "@types/lodash@^4.14.162":
+"@types/lodash@*":
   version "4.14.168"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.168.tgz#fe24632e79b7ade3f132891afff86caa5e5ce008"
   integrity sha512-oVfRvqHV/V6D1yifJbVRU3TMp8OT6o6BG+U9MkwuJ3U8/CsDHvalRpsxBqivn71ztOFZBTfJMvETbqHiaNSj7Q==
+
+"@types/lodash@^4.14.162":
+  version "4.14.170"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.170.tgz#0d67711d4bf7f4ca5147e9091b847479b87925d6"
+  integrity sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q==
 
 "@types/long@^4.0.0", "@types/long@^4.0.1":
   version "4.0.1"

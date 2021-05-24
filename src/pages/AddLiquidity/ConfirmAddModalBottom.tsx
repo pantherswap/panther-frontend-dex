@@ -1,6 +1,6 @@
 import { Currency, CurrencyAmount, Fraction, Percent } from '@pantherswap-libs/sdk'
 import React from 'react'
-import { Button } from '@pancakeswap-libs/uikit'
+import { Button } from '@pantherswap-libs/uikit'
 import { RowBetween, RowFixed } from '../../components/Row'
 import CurrencyLogo from '../../components/CurrencyLogo'
 import { Field } from '../../state/mint/actions'

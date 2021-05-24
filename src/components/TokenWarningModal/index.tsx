@@ -1,6 +1,6 @@
 import { Token } from '@pantherswap-libs/sdk'
 import { transparentize } from 'polished'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@pantherswap-libs/uikit'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { AlertTriangle } from 'react-feather'

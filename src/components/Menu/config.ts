@@ -1,4 +1,4 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from '@pantherswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -62,7 +62,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Features',
-    icon: 'PriceGuardIcon',
+    icon: 'FeatureIcon',
     items: [
       {
         label: 'Automatic LP',
@@ -119,6 +119,10 @@ const config: MenuEntry[] = [
       {
         label: 'CoinGecko',
         href: 'https://www.coingecko.com/en/coins/pantherswap',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/pantherswap/',
       },
       {
         label: 'LiveCoinWatch',
