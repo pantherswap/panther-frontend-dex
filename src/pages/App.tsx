@@ -119,38 +119,36 @@ export default function App() {
     <Suspense fallback={null}>
       <HashRouter>
         <AppWrapper>
-          <BodyWrapper>
-            {/* <LanguageContext.Provider
+            <LanguageContext.Provider
             value={{ selectedLanguage, setSelectedLanguage, translatedLanguage, setTranslatedLanguage }}
           >
             <TranslationsContext.Provider value={{ translations, setTranslations }}>
               <Menu>
                 <BodyWrapper>
                   <Popups />
-                  <Web3ReactManager> */}
+                  <Web3ReactManager>
                     <Switch>
                       <Route exact strict path="/" component={Landing} />
-                      {/* <Route exact strict path="/swap" component={Swap} />
+                      <Route exact strict path="/swap" component={Swap} />
                       <Route exact strict path="/find" component={PoolFinder} />
                       <Route exact strict path="/pool" component={Pool} />
                       <Route exact path="/add" component={AddLiquidity} />
                       <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
-                      Redirection: These old routes are still used in the code base
+                      {/* Redirection: These old routes are still used in the code base */}
                       <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
                       <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
                       <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
 
-                      <Route component={RedirectPathToSwapOnly} /> */}
+                      <Route component={RedirectPathToSwapOnly} />
                     </Switch>
-                  {/* </Web3ReactManager>
+                  </Web3ReactManager>
                   <Marginer />
                 </BodyWrapper>
               </Menu>
               <VersionBar />
             </TranslationsContext.Provider>
-          </LanguageContext.Provider> */}
-          </BodyWrapper>
+          </LanguageContext.Provider>
         </AppWrapper>
       </HashRouter>
     </Suspense>
