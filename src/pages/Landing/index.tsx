@@ -12,5 +12,5 @@ const Landing = () => {
 export default Landing
 
 const TEST = styled.div`
-    background-color: #FFFFFF;
+  background-color: ${({ theme }) => theme.colors.background};
 `
