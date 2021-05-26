@@ -522,14 +522,6 @@
       "decimals": 8
     },
     {
-      "name": "Shark Token",
-      "symbol": "SHARK",
-      "address": "0xf7321385a461c4490d5526d83e63c366b149cb15",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "/images/coins/shark.png"
-    },
-    {
       "name": "TRON",
       "symbol": "TRX",
       "address": "0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b",
