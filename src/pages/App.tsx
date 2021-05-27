@@ -12,6 +12,7 @@ import Pool from './Pool'
 import PoolFinder from './PoolFinder'
 import RemoveLiquidity from './RemoveLiquidity'
 import Swap from './Swap'
+import Landing from './Landing'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
@@ -38,7 +39,7 @@ const BodyWrapper = styled.div`
   z-index: 1;
   justify-content: center;
   // background-image: url('/images/group-pancake.svg');
-  // background-repeat: no-repeat;
+  // bckground-repeat: no-repeat;
   // background-position: bottom 24px center;
   // background-size: 90%;
 
@@ -67,6 +68,7 @@ export default function App() {
   const apiKey = `${process.env.REACT_APP_CROWDIN_APIKEY}`
   const projectId = parseInt(`${process.env.REACT_APP_CROWDIN_PROJECTID}`)
   const fileId = 6
+  const isOpen = false
 
   const credentials: Credentials = {
     token: apiKey,
@@ -116,39 +118,49 @@ export default function App() {
 
   return (
     <Suspense fallback={null}>
-      <HashRouter>
-        <AppWrapper>
-          <LanguageContext.Provider
-            value={{ selectedLanguage, setSelectedLanguage, translatedLanguage, setTranslatedLanguage }}
-          >
-            <TranslationsContext.Provider value={{ translations, setTranslations }}>
-              <Menu>
-                <BodyWrapper>
-                  <Popups />
-                  <Web3ReactManager>
-                    <Switch>
-                      <Route exact strict path="/swap" component={Swap} />
-                      <Route exact strict path="/find" component={PoolFinder} />
-                      <Route exact strict path="/pool" component={Pool} />
-                      <Route exact path="/add" component={AddLiquidity} />
-                      <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
+      {isOpen ? (
+        <HashRouter>
+          <AppWrapper>
+            <LanguageContext.Provider
+              value={{ selectedLanguage, setSelectedLanguage, translatedLanguage, setTranslatedLanguage }}
+            >
+              <TranslationsContext.Provider value={{ translations, setTranslations }}>
+                <Menu>
+                  <BodyWrapper>
+                    <Popups />
+                    <Web3ReactManager>
+                      <Switch>
+                        {/* <Route exact strict path="/" component={Landing} /> */}
+                        <Route exact strict path="/swap" component={Swap} />
+                        <Route exact strict path="/find" component={PoolFinder} />
+                        <Route exact strict path="/pool" component={Pool} />
+                        <Route exact path="/add" component={AddLiquidity} />
+                        <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 
-                      {/* Redirection: These old routes are still used in the code base */}
-                      <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
-                      <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
-                      <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
+                        {/* Redirection: These old routes are still used in the code base */}
+                        <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
+                        <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
+                        <Route
+                          exact
+                          strict
+                          path="/remove/:tokens"
+                          component={RedirectOldRemoveLiquidityPathStructure}
+                        />
 
-                      <Route component={RedirectPathToSwapOnly} />
-                    </Switch>
-                  </Web3ReactManager>
-                  <Marginer />
-                </BodyWrapper>
-              </Menu>
-              <VersionBar />
-            </TranslationsContext.Provider>
-          </LanguageContext.Provider>
-        </AppWrapper>
-      </HashRouter>
+                        <Route component={RedirectPathToSwapOnly} />
+                      </Switch>
+                    </Web3ReactManager>
+                    <Marginer />
+                  </BodyWrapper>
+                </Menu>
+                <VersionBar />
+              </TranslationsContext.Provider>
+            </LanguageContext.Provider>
+          </AppWrapper>
+        </HashRouter>
+      ) : (
+        <Landing />
+      )}
     </Suspense>
   )
 }
