@@ -2,12 +2,12 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#F72B50",
-  primary: "#FF720D",
-  primaryBright: "#e66000",
-  primaryDark: "#d95b00",
-  secondary: "#7645D9",
-  success: "#68CF29",
-  warning: "#FFAB2D",
+  primary: "#00A4A5",
+  primaryBright: "#00E8E8",
+  primaryDark: "#005C5C",
+  secondary: "#2F7575",
+  success: "#00DB5F",
+  warning: "#E0385F",
 };
 
 export const brandColors = {
@@ -33,34 +33,11 @@ export const lightColors: Colors = {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
 };
-
-// export const lightColors: Colors = {
-//   ...baseColors,
-//   ...brandColors,
-//   background: "#FFFFFF",
-//   custom: "#FF0000",
-//   test: "FF0000",
-//   backgroundDisabled: "#FFFFFF",
-//   contrast: "#FFFFFF",
-//   invertedContrast: "#FFFFFF",
-//   input: "#FFFFFF",
-//   inputBorder: "#FFFFFF",
-//   tertiary: "#FFFFFF",
-//   text: "#FFFFFF",
-//   textDisabled: "#FFFFFF",
-//   textSubtle: "#FFFFFF",
-//   borderColor: "#FFFFFF",
-//   card: "#FFFFFF",
-//   gradients: {
-//     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
-//   },
-// };
-
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#e9f1fd",
-  background: "#1f2b46",
+  background: "#f0f0f0",
   backgroundDisabled: "#3c3742",
   contrast: "#FFFFFF",
   invertedContrast: "#0a0e17",
@@ -77,27 +54,3 @@ export const darkColors: Colors = {
     bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
   },
 };
-
-// export const darkColors: Colors = {
-//   ...baseColors,
-//   ...brandColors,
-//   secondary: "FFFFFF",
-//   background: "#83DCB7",
-//   custom: "#FF0000",
-//   test: "FF0000",
-//   backgroundDisabled: "#FFFFFF",
-//   contrast: "#FFFFFF",
-//   invertedContrast: "#FFFFFF",
-//   input: "#FFFFFF",
-//   inputBorder: "#FFFFFF",
-//   primaryDark: "#FFFFFF",
-//   tertiary: "#FFFFFF",
-//   text: "#FFFFFF",
-//   textDisabled: "#FFFFFF",
-//   textSubtle: "#FFFFFF",
-//   borderColor: "#FFFFFF",
-//   card: "#FFFFFF",
-//   gradients: {
-//     bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
-//   },
-// };
