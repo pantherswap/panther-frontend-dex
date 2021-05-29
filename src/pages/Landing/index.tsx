@@ -12,13 +12,13 @@ const Landing = () => {
       const leftTime = targetTime.getTime() - _now
       const dateObj = new Date(leftTime)
       const formattedTime = `
-      ${(dateObj.getUTCDate() - 1).toString().padStart(2, '0')}:${dateObj
+      ${(dateObj.getUTCDate() - 1).toString().padStart(2, '0')}d ${dateObj
         .getUTCHours()
         .toString()
-        .padStart(2, '0')}:${dateObj
+        .padStart(2, '0')}h ${dateObj
         .getUTCMinutes()
         .toString()
-        .padStart(2, '0')}:${dateObj.getUTCSeconds().toString().padStart(2, '0')}`
+        .padStart(2, '0')}m ${dateObj.getUTCSeconds().toString().padStart(2, '0')}s`
       setTimer(formattedTime)
     }, 1000)
   }, [])
@@ -38,6 +38,9 @@ const Landing = () => {
           <SWTimer>
             <STimer>{timer}</STimer>
           </SWTimer>
+          <SWButton>
+            <SButton>Go to App</SButton>
+          </SWButton>
           <div>
             <SVImage>
               <a href="https://github.com/lazymint" target="blank">
@@ -60,9 +63,6 @@ const Landing = () => {
               </a>
             </SVImage>
           </div>
-          <SWButton>
-            <SButton>Go to App</SButton>
-          </SWButton>
         </Overlay>
         <div>
           <SBackground src={sleepy} />
@@ -90,11 +90,11 @@ const SVImage = styled.div`
   display: flex;
   justify-content: center;
   // margin: 2%;
-  margin-top: 5%;
+  margin-top: 1%;
 `
 const SImage = styled.img`
   width: 38px;
-  margin: 0 8px 24px;
+  margin: 24px 8px 24px;
   filter: drop-shadow 5px 5px 5px white;
 `
 const SLogo = styled.img`
@@ -105,17 +105,18 @@ const SLogo = styled.img`
 
 const SWTimer = styled.div`
   width: 100%;
+  margin-bottom: 8px;
 `
 
 const STimer = styled.div`
-  font-size: 60px;
+  font-size: 40px;
   color: ${({ theme }) => theme.colors.primary};
 `
 const SWrapper = styled.div`
   // height: 100vh;
 `
 const Overlay = styled.div`
-  margin-top: 10%;
+  margin-top: 5%;
   // width: 100%;
   // top: 50%;
 `
@@ -132,16 +133,21 @@ const OverlayContents = styled.div`
 `
 
 const SBackground = styled.img`
-  width: 90%;
+  width: 70%;
   margin-top: 100px;
 `
 const SWButton = styled.div`
+  margin-top: 3%;
   position: relative;
 `
 const SButton = styled.button`
   padding: 8px 16px;
   width: 350px;
-  background: ${({ theme }) => theme.colors.success};
+  background: ${({ theme }) => theme.colors.primary};
   border-radius: 50px;
   font-size: 32px;
+  &:hover {
+    background: ${({ theme }) => theme.colors.primaryBright};
+    cursor: pointer;
+  }
 `
