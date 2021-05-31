@@ -19,10 +19,10 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: '/pool',
       },
-      {
-        label: 'LP Migration',
-        href: 'https://docs.pantherswap.com/amm-launch',
-      },
+      // {
+      //   label: 'LP Migration',
+      //   href: 'https://docs.pantherswap.com/amm-launch',
+      // },
     ],
   },
   {
