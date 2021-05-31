@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pantherswap.com/',
+    href: 'https://lazymint.finance/',
   },
   {
     label: 'Trade',
@@ -19,69 +19,69 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: '/pool',
       },
-      {
-        label: 'LP Migration',
-        href: 'https://docs.pantherswap.com/amm-launch',
-      },
+      // {
+      //   label: 'LP Migration',
+      //   href: 'https://docs.pantherswap.com/amm-launch',
+      // },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pantherswap.com/farms',
+    href: 'https://lazymint.financefarms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pantherswap.com/pools',
+    href: 'https://lazymint.finance/pools',
   },
   {
     label: 'Jungles',
     icon: 'JungleIcon',
-    href: 'https://pantherswap.com/jungles',
+    href: 'https://lazymint.finance/jungles',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pantherswap.com/lottery',
+    href: 'https://lazymint.finance/lottery',
   },
   {
     label: 'IPO',
     icon: 'IfoIcon',
-    href: 'https://pantherswap.com/ipo',
+    href: 'https://lazymint.finance/ipo',
   },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    href: 'https://lazymint.finance/referrals',
   },
   {
     label: 'Audits',
     icon: 'ShieldIcon',
-    href: 'https://docs.pantherswap.com/security/audits',
+    href: 'https://lazymint.finance/audits',
   },
-  {
-    label: 'Features',
-    icon: 'FeatureIcon',
-    items: [
-      {
-        label: 'Automatic LP',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
-      },
-      {
-        label: 'Automatic Burning',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
-      },
-      {
-        label: 'Harvest Lockup',
-        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
-      },
-      {
-        label: 'Anti-Whale',
-        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
-      },
-    ],
-  },
+  // {
+  //   label: 'Features',
+  //   icon: 'FeatureIcon',
+  //   items: [
+  //     {
+  //       label: 'Automatic LP',
+  //       href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+  //     },
+  //     {
+  //       label: 'Automatic Burning',
+  //       href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+  //     },
+  //     {
+  //       label: 'Harvest Lockup',
+  //       href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+  //     },
+  //     {
+  //       label: 'Anti-Whale',
+  //       href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'Price Charts',
   //   icon: 'ChartIcon',
@@ -104,36 +104,36 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  {
-    label: 'Listings',
-    icon: 'ListingIcon',
-    items: [
-      {
-        label: 'BscScan',
-        href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
-      },
-      {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/pantherswap/',
-      },
-      {
-        label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
-      },
-      {
-        label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
-      },
-    ],
-  },
+  // {
+  //   label: 'Listings',
+  //   icon: 'ListingIcon',
+  //   items: [
+  //     {
+  //       label: 'BscScan',
+  //       href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+  //     },
+  //     {
+  //       label: 'DappRadar',
+  //       href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+  //     },
+  //     {
+  //       label: 'CoinGecko',
+  //       href: 'https://www.coingecko.com/en/coins/pantherswap',
+  //     },
+  //     {
+  //       label: 'CoinMarketCap',
+  //       href: 'https://coinmarketcap.com/currencies/pantherswap/',
+  //     },
+  //     {
+  //       label: 'LiveCoinWatch',
+  //       href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+  //     },
+  //     {
+  //       label: 'Vfat',
+  //       href: 'https://vfat.tools/bsc/panther',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
@@ -158,63 +158,63 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  {
-    label: 'Analytics',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://pantherswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pantherswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pantherswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pantherswap.info/accounts',
-      },
-    ],
-  },
+  // {
+  //   label: 'Analytics',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'Overview',
+  //       href: 'https://pantherswap.info',
+  //     },
+  //     {
+  //       label: 'Tokens',
+  //       href: 'https://pantherswap.info/tokens',
+  //     },
+  //     {
+  //       label: 'Pairs',
+  //       href: 'https://pantherswap.info/pairs',
+  //     },
+  //     {
+  //       label: 'Accounts',
+  //       href: 'https://pantherswap.info/accounts',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
   //   href: 'https://pancakeswap.finance/ifo',
   // },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      // {
-      //   label: 'Voting',
-      //   href: 'https://voting.pancakeswap.finance',
-      // },
-      {
-        label: 'Github',
-        href: 'https://github.com/pantherswap',
-      },
-      {
-        label: 'Docs',
-        href: 'https://docs.pantherswap.com',
-      },
-      {
-        label: 'Roadmap',
-        href: 'https://docs.pantherswap.com/roadmap',
-      },
-      {
-        label: 'Blog',
-        href: 'https://pantherswap.medium.com',
-      },
-      {
-        label: 'Voting',
-        href: 'https://voting.pantherswap.com/',
-      },
-    ],
-  },
+  // {
+  //   label: 'More',
+  //   icon: 'MoreIcon',
+  //   items: [
+  //     // {
+  //     //   label: 'Voting',
+  //     //   href: 'https://voting.pancakeswap.finance',
+  //     // },
+  //     {
+  //       label: 'Github',
+  //       href: 'https://github.com/pantherswap',
+  //     },
+  //     {
+  //       label: 'Docs',
+  //       href: 'https://docs.pantherswap.com',
+  //     },
+  //     {
+  //       label: 'Roadmap',
+  //       href: 'https://docs.pantherswap.com/roadmap',
+  //     },
+  //     {
+  //       label: 'Blog',
+  //       href: 'https://pantherswap.medium.com',
+  //     },
+  //     {
+  //       label: 'Voting',
+  //       href: 'https://voting.pantherswap.com/',
+  //     },
+  //   ],
+  // },
 ]
 
 export default config

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Button, HelpIcon, Link } from '@pantherswap-libs/uikit'
+import { Text } from '@pantherswap-libs/uikit'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -22,9 +22,9 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        You are using PantherSwap AMM exchange.
+        You are using LazyMint AMM exchange.
       </Text>
-      <Button
+      {/* <Button
         variant="subtle"
         as={Link}
         href="https://docs.pantherswap.com/amm-launch"
@@ -33,7 +33,7 @@ const VersionBar = () => {
         ml="16px"
       >
         LP Migration
-      </Button>
+      </Button> */}
     </Wrapper>
   )
 }
