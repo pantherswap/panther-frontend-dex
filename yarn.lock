@@ -3067,10 +3067,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pantherswap-libs/uikit@^0.1.1":
+"@pantherswap-libs/uikit@hashlike/lazymint-uikit":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
-  integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
+  resolved "https://codeload.github.com/hashlike/lazymint-uikit/tar.gz/9c40e8cee2747a422671746b24c2ad12b29a0bc6"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
