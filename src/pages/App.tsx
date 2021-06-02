@@ -149,7 +149,7 @@ export default function App() {
                   <Marginer />
                 </BodyWrapper>
               </Menu>
-              <VersionBar />
+              {/* <VersionBar /> */}
             </TranslationsContext.Provider>
           </LanguageContext.Provider>
         </AppWrapper>
