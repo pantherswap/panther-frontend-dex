@@ -35,20 +35,27 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://lazymint.finance/pools',
   },
+  // {
+  //   label: 'Jungles',
+  //   icon: 'JungleIcon',
+  //   href: 'https://lazymint.finance/jungles',
+  // },
   {
-    label: 'Jungles',
-    icon: 'JungleIcon',
-    href: 'https://lazymint.finance/jungles',
+    label: 'Vacation(Coming soon)',
+    icon: 'FarmIcon',
+    href: '#',
   },
   {
-    label: 'Lottery',
+    label: 'Lottery(Coming soon)',
     icon: 'TicketIcon',
-    href: 'https://lazymint.finance/lottery',
+    // href: 'https://lazymint.finance/lottery',
+    href: '#',
   },
   {
-    label: 'IPO',
+    label: 'ILO(Coming soon)',
     icon: 'IfoIcon',
-    href: 'https://lazymint.finance/ipo',
+    // href: 'https://lazymint.finance/ipo',
+    href: '#',
   },
   {
     label: 'Referrals',
@@ -56,10 +63,50 @@ const config: MenuEntry[] = [
     href: 'https://lazymint.finance/referrals',
   },
   {
-    label: 'Audits',
-    icon: 'ShieldIcon',
-    href: 'https://lazymint.finance/audits',
+    label: 'Info',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x8fda94079913CB921D065Ed9c004Afb43e1f900e',
+      },
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/satisfinance',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/satisfinance-token/',
+      },
+      {
+        label: 'Poocoin',
+        href: 'https://poocoin.app/tokens/0x8fda94079913CB921D065Ed9c004Afb43e1f900e',
+      },
+    ],
   },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Github',
+        href: 'https://github.com/LazyMint',
+      },
+      {
+        label: 'Docs',
+        href: 'https://docs.lazymint.finance',
+      },
+      {
+        label: 'Blog',
+        href: 'https://medium.com/@lazymint',
+      },
+    ],
+  },
+  // {
+  //   label: 'Audits',
+  //   icon: 'ShieldIcon',
+  //   href: 'https://lazymint.finance/audits',
+  // },
   // {
   //   label: 'Features',
   //   icon: 'FeatureIcon',
