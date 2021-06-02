@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@pantherswap-libs/sdk'
-import { Button, CardBody, Text } from '@pantherswap-libs/uikit'
+import { GradientButton, CardBody, Text } from '@pantherswap-libs/uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
@@ -60,10 +60,10 @@ export default function Pool() {
     <>
       <CardNav activeIndex={1} />
       <AppBody>
-        <PageHeader title="Liquidity" description="Add liquidity to receive PANTHER-LP tokens">
-          <Button id="join-pool-button" as={Link} to="/add/ETH">
+        <PageHeader title="Liquidity" description="Add liquidity to receive Lazy-LP tokens">
+          <GradientButton id="join-pool-button" as={Link} to="/add/ETH">
             <TranslatedText translationId={100}>Add Liquidity</TranslatedText>
-          </Button>
+          </GradientButton>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
           <CardBody>
@@ -114,7 +114,7 @@ export default function Pool() {
                   </StyledInternalLink>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  Or, if you staked your PANTHER-LP tokens in a farm, unstake them to see them here.
+                  Or, if you staked your Lazy-LP tokens in a farm, unstake them to see them here.
                 </Text>
               </div>
             </AutoColumn>
