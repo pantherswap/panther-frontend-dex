@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@pantherswap-libs/sdk'
-import { Button, CardBody, Text } from '@pantherswap-libs/uikit'
+import { GradientButton, CardBody, Text } from '@pantherswap-libs/uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
@@ -61,9 +61,9 @@ export default function Pool() {
       <CardNav activeIndex={1} />
       <AppBody>
         <PageHeader title="Liquidity" description="Add liquidity to receive Lazy-LP tokens">
-          <Button id="join-pool-button" as={Link} to="/add/ETH">
+          <GradientButton id="join-pool-button" as={Link} to="/add/ETH">
             <TranslatedText translationId={100}>Add Liquidity</TranslatedText>
-          </Button>
+          </GradientButton>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
           <CardBody>

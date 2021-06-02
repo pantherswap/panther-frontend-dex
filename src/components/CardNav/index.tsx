@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem } from '@pantherswap-libs/uikit'
+// import { ButtonMenu, ButtonMenuItem } from '@pantherswap-libs/uikit'
+import { ButtonMenu, ButtonMenuItem } from '../../style/ButtonMenu'
 import TranslatedText from '../TranslatedText'
 
 const StyledNav = styled.div`
