@@ -28,7 +28,7 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://lazymint.financefarms',
+    href: 'https://lazymint.finance/farms',
   },
   {
     label: 'Pools',
