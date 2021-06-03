@@ -67,20 +67,8 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x8fda94079913CB921D065Ed9c004Afb43e1f900e',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/satisfinance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/satisfinance-token/',
-      },
-      {
         label: 'Poocoin',
-        href: 'https://poocoin.app/tokens/0x8fda94079913CB921D065Ed9c004Afb43e1f900e',
+        href: 'https://poocoin.app/tokens/0xf4308ae29c84238f3386c01d3cf6266ac6939ade',
       },
     ],
   },
