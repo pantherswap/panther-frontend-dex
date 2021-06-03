@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "LazyMin Token",
+      "symbol": "Lazy",
+      "address": "0x7816D63B15d0F20E01AcCa4fD9984484257c2eA3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/Lazy.png"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
