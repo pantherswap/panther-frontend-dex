@@ -3045,6 +3045,28 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
+"@pancakeswap-libs/pancake-swap-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
+  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@pancakeswap-libs/sdk-v2@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/sdk-v2/-/sdk-v2-2.2.0.tgz#fc1d048325c6bb114eeb0ce92e4f07a6c6d17657"
+  integrity sha512-FZ6Z6Ro9yMaUfb+fIzn2HB+qqQzipxpflmOZZ3JRUDW09mOqfimgloils78ZhNr3mh70MKNYFmy1AUXJIUNqkQ==
+  dependencies:
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@pantherswap-libs/panther-swap-core@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
