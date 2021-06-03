@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from '@pantherswap-libs/sdk'
+import { JSBI, Pair, Percent } from '@pancakeswap-libs/sdk-v2'
 import { Button, Card as UIKitCard, CardBody, Text } from '@pantherswap-libs/uikit'
 import { darken } from 'polished'
 import { ChevronDown, ChevronUp } from 'react-feather'

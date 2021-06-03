@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@pantherswap-libs/sdk'
+import { currencyEquals, Trade } from '@pancakeswap-libs/sdk-v2'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,
