@@ -80,15 +80,15 @@ export default function App() {
     })[0]
   }
 
-  useEffect(() => {
-    const storedLangCode = localStorage.getItem('pancakeSwapLanguage')
-    if (storedLangCode) {
-      const storedLang = getStoredLang(storedLangCode)
-      setSelectedLanguage(storedLang)
-    } else {
-      setSelectedLanguage(EN)
-    }
-  }, [])
+  // useEffect(() => {
+  //   const storedLangCode = localStorage.getItem('pancakeSwapLanguage')
+  //   if (storedLangCode) {
+  //     const storedLang = getStoredLang(storedLangCode)
+  //     setSelectedLanguage(storedLang)
+  //   } else {
+  //     setSelectedLanguage(EN)
+  //   }
+  // }, [])
 
   const fetchTranslationsForSelectedLanguage = async () => {
     stringTranslationsApi
@@ -136,12 +136,7 @@ export default function App() {
                       {/* Redirection: These old routes are still used in the code base */}
                       <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
                       <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
-                      <Route
-                        exact
-                        strict
-                        path="/remove/:tokens"
-                        component={RedirectOldRemoveLiquidityPathStructure}
-                      />
+                      <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
 
                       <Route component={RedirectPathToSwapOnly} />
                     </Switch>
