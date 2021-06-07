@@ -5,8 +5,8 @@ type ApiResponse = {
     [address: string]: {
       name: string
       symbol: string
-      price:string
-      price_BNB:string
+      price: string
+      price_BNB: string
     }
   }
   updated_at: string
