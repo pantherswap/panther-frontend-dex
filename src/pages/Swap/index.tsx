@@ -46,7 +46,7 @@ const Swap = () => {
     useCurrency(loadedUrlParams?.inputCurrencyId),
     useCurrency(loadedUrlParams?.outputCurrencyId),
   ]
-  const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+  const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(true)
   const [isSyrup, setIsSyrup] = useState<boolean>(false)
   const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
   const urlLoadedTokens: Token[] = useMemo(
