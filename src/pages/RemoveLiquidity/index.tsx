@@ -623,7 +623,7 @@ export default function RemoveLiquidity({
               )}
               <div style={{ position: 'relative' }}>
                 {!account ? (
-                  <ConnectWalletButton fullWidth />
+                  <ConnectWalletButton />
                 ) : (
                   <RowBetween>
                     <Button

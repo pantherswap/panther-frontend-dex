@@ -371,7 +371,7 @@ export default function AddLiquidity({
               )}
 
               {!account ? (
-                <ConnectWalletButton fullWidth />
+                <ConnectWalletButton />
               ) : (
                 <AutoColumn gap="md">
                   {(approvalA === ApprovalState.NOT_APPROVED ||
@@ -422,7 +422,6 @@ export default function AddLiquidity({
                         ? 'danger'
                         : 'primary'
                     }
-                    fullWidth
                   >
                     {error ?? 'Supply'}
                   </Button>
