@@ -137,7 +137,6 @@ export default function CurrencyInputPanel({
           {!hideInput && (
             <>
               <NumericalInput
-                width="100%"
                 className="token-amount-input"
                 value={value}
                 onUserInput={(val) => {
@@ -145,7 +144,7 @@ export default function CurrencyInputPanel({
                 }}
               />
               {account && currency && showMaxButton && label !== 'To' && (
-                <Button onClick={onMax} size="sm" variant="text">
+                <Button onClick={onMax} size="sm" variant="text" style={{ width: 'auto' }}>
                   MAX
                 </Button>
               )}
