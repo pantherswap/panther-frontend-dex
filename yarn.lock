@@ -3091,7 +3091,7 @@
 
 "@pantherswap-libs/uikit@hashlike/lazymint-uikit":
   version "0.1.1"
-  resolved "https://codeload.github.com/hashlike/lazymint-uikit/tar.gz/309a64a587257b3491283e1e94ca08ae53494ceb"
+  resolved "https://codeload.github.com/hashlike/lazymint-uikit/tar.gz/2ee0cbbc3ca5d7fb9a427e4e0708c394adc3ed34"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
