@@ -542,6 +542,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/coins/jaws.png"
+    },
+    {
+      "name": "Pirate Token ",
+      "symbol": "PIRATE",
+      "address": "0x63041a8770c4cfe8193d784f3dc7826eab5b7fd2",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/pirate.png"
     }
   ]
 }
