@@ -1,5 +1,6 @@
 {
-  "baseUrl": "http://localhost:3000",
+  //"baseUrl": "http://localhost:3000",
+  "baseUrl": "https://warrenbitbyte.github.io/panther-frontend-dex",
   "pluginsFile": false,
   "fixturesFolder": false,
   "supportFile": "cypress/support/index.js",
