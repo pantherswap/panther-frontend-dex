@@ -22,17 +22,17 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        Read Our Whitepaper Here
+        You are using PantherSwap AMM exchange.
       </Text>
       <Button
         variant="subtle"
         as={Link}
-        href="https://docs.sirenstreasure.tk/"
+        href="https://docs.pantherswap.com/amm-launch"
         endIcon={<HelpIcon color="white" />}
         size="sm"
         ml="16px"
       >
-        Documentation
+        LP Migration
       </Button>
     </Wrapper>
   )
